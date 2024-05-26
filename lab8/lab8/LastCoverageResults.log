@@ -1,0 +1,21 @@
+[2024-05-08 22:23:16] [info] Start Program:
+Path:"C:\Users\anama\source\repos\lab8\x64\Debug\lab8.exe"
+Arguments:
+Working directory: "C:\Users\anama\source\repos\lab8\lab8\"
+Modules: Selected: C:\Users\anama\source\repos\lab8\x64\Debug\lab8.exe Excluded: 
+Sources: Selected: C:\Users\anama\source\repos\lab8\lab8 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\anama\AppData\Local\Temp\z1og4icx.kyj 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-05-08 22:23:16] [info] Module: C:\Users\anama\source\repos\lab8\x64\Debug\lab8.exe is selected because it matches selected pattern: C:\Users\anama\source\repos\lab8\x64\Debug\lab8.exe
+[2024-05-08 22:23:17] [info] ----------------------------------------------------
+[2024-05-08 22:23:17] [info] Coverage binary generated in file: C:\Users\anama\AppData\Local\Temp\z1og4icx.kyj
+[2024-05-08 22:23:17] [info] ----------------------------------------------------
