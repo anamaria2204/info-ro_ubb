@@ -1,0 +1,2 @@
+C:\Users\anama\source\repos\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe.lastcodeanalysissucceeded
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\x64\Debug\NativeCodeAnalysis.read.1.tlog

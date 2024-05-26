@@ -1,0 +1,61 @@
+﻿  main.cpp
+  Agentie_de_turism.vcxproj -> C:\Users\anama\source\repos\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\domeniu.h(47): warning C26432: If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\domeniu.cpp(16): warning C26440: Function 'Oferta::get_pret' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\domeniu.cpp(43): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.h(37): warning C26440: Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.h(21): warning C26440: Function 'UI::UI' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\main.cpp(9): warning C6389: Move 'mainSec' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.h(21): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\main.cpp(29): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(79): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(82): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(87): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\domeniu.h(57): warning C26495: Variable 'Oferta::pret' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(28): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(40): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(41): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(42): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(43): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(44): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(45): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(46): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(47): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\repo.cpp(73): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(92): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(188): warning C26440: Function 'VectorDinamic<Oferta>::operator[]' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(189): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(208): warning C26440: Function 'VectorDinamic<Oferta>::end' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(111): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(111): warning C26403: Reset or explicitly delete an owner<T> pointer 'nou' (r.3).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(115): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(234): warning C26440: Function 'IteratorVector<Oferta>::IteratorVector<Oferta>' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(245): warning C26440: Function 'IteratorVector<Oferta>::element' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(246): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\VectorDinamic.h(250): warning C26440: Function 'IteratorVector<Oferta>::next' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(37): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(73): warning C26429: Symbol 'maiMicF' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(77): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(77): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(78): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(79): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(79): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(80): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(77): warning C26823: Dereferencing a possibly null pointer 'maiMicF' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(101): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\service.cpp(108): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(94): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(173): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(174): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(222): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(225): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(228): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\teste.cpp(232): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(54): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(54): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(53): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(53): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(218): warning C26494: Variable 'optiune' is uninitialized. Always initialize an object (type.5).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(209): warning C26823: Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\ui.cpp(261): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\validator.cpp(22): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.

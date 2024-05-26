@@ -1,0 +1,1286 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/domeniu.h"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::{ctor}",
+                  "decoratedName": "??0Oferta@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/service.h"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaService::{ctor}",
+                  "decoratedName": "??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'UI::UI' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.h"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::{ctor}",
+                  "decoratedName": "??0UI@@QEAA@AEAVOfertaService@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 55,
+                  "endLine": 54,
+                  "endColumn": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::tipareste_invers",
+                  "decoratedName": "?tipareste_invers@UI@@AEAAXV?$VectorDinamic@VOferta@@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 19,
+                  "endLine": 54,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::tipareste_invers",
+                  "decoratedName": "?tipareste_invers@UI@@AEAAXV?$VectorDinamic@VOferta@@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 74,
+                  "endLine": 53,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::tipareste_invers",
+                  "decoratedName": "?tipareste_invers@UI@@AEAAXV?$VectorDinamic@VOferta@@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 27,
+                  "endLine": 53,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::tipareste_invers",
+                  "decoratedName": "?tipareste_invers@UI@@AEAAXV?$VectorDinamic@VOferta@@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Variable 'optiune' is uninitialized. Always initialize an object (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::start",
+                  "decoratedName": "?start@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "optiune"
+          }
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 14,
+                  "endLine": 209,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::start",
+                  "decoratedName": "?start@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 10
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 9
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 7
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 13
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 7
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 7
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 155,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 205,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 11
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 11
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 9
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 39
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 39
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 17
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 38
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 13
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 9
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 7
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 13
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 7
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 7
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 155,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 205,
+                            "startColumn": 16
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 11
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 11
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 9
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 39
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 39
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 17
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6389",
+          "message": {
+            "text": "Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "__empty_global_delete",
+                  "decoratedName": "?__empty_global_delete@@YAXPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6389",
+          "message": {
+            "text": "Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+                },
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "__empty_global_delete",
+                  "decoratedName": "?__empty_global_delete@@YAXPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::{dtor}",
+                  "decoratedName": "??1?$VectorDinamic@VOferta@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 24
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Oferta>::operator[]' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::[]",
+                  "decoratedName": "??A?$VectorDinamic@VOferta@@@@QEBAAEAVOferta@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 2,
+                  "endLine": 189,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::[]",
+                  "decoratedName": "??A?$VectorDinamic@VOferta@@@@QEBAAEAVOferta@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Oferta>::end' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::end",
+                  "decoratedName": "?end@?$VectorDinamic@VOferta@@@@QEBA?AV?$IteratorVector@VOferta@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Oferta>::IteratorVector<Oferta>' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::{ctor}",
+                  "decoratedName": "??0?$IteratorVector@VOferta@@@@QEAA@AEBV?$VectorDinamic@VOferta@@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Oferta>::element' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::element",
+                  "decoratedName": "?element@?$IteratorVector@VOferta@@@@QEBAAEAVOferta@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 2,
+                  "endLine": 246,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::element",
+                  "decoratedName": "?element@?$IteratorVector@VOferta@@@@QEBAAEAVOferta@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Oferta>::next' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::next",
+                  "decoratedName": "?next@?$IteratorVector@VOferta@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33521.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/domeniu.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "831d14b9ad86488ef6e548e4b2c9621eec35fe0e9c0925a1c22a40fe133da7e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/service.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cdd5cb9c53f1318bbadf2d20299fd73335ba780fea3a79af8712a5bbd5276aa5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d7b042d4fa80f4e8a7754fb2f46d726eb268ad7a6b0b401afa0a3db7fabd444e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/ui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0ebdc9895c49933e5bb2a2de58024f45b07836d89c9d80231365dec4936a16f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e8ec2bf0ae9f6e9f994b664305b460d0e27ce5f40486be5f0971cd2066b607b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_de_turism/agentie_de_turism/repo.h"
+          },
+          "hashes": {
+            "sha-256": "17b72491489c67aaadd260d81034fbcaf1fdee045b7cfb603e59d815821c97da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_de_turism/agentie_de_turism/validator.h"
+          },
+          "hashes": {
+            "sha-256": "e0458766f93e8548f5c77838a55427d98b5f1dd26887fea72309a4d4aa5f58de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_de_turism/agentie_de_turism/teste.h"
+          },
+          "hashes": {
+            "sha-256": "2bf8ef2106f2368319c014745ec1bbfc25ad9dd0e239c7622398e4907cc77f85"
+          }
+        }
+      ]
+    }
+  ]
+}

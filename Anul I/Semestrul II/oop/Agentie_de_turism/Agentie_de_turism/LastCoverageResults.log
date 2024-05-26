@@ -1,0 +1,21 @@
+[2024-04-26 09:21:17] [info] Start Program:
+Path:"C:\Users\anama\source\repos\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe"
+Arguments:
+Working directory: "C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\"
+Modules: Selected: C:\Users\anama\source\repos\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe Excluded: 
+Sources: Selected: C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\anama\AppData\Local\Temp\a3ilgzzw.jri 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-04-26 09:21:17] [info] Module: C:\Users\anama\source\repos\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe is selected because it matches selected pattern: C:\Users\anama\source\repos\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe
+[2024-04-26 09:21:17] [info] ----------------------------------------------------
+[2024-04-26 09:21:17] [info] Coverage binary generated in file: C:\Users\anama\AppData\Local\Temp\a3ilgzzw.jri
+[2024-04-26 09:21:17] [info] ----------------------------------------------------

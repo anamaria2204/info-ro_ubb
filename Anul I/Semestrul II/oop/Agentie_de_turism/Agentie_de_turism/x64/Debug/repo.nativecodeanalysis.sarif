@@ -1,0 +1,1073 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/domeniu.h"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::{ctor}",
+                  "decoratedName": "??0Oferta@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 12,
+                  "endLine": 28,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::sterge",
+                  "decoratedName": "?sterge@OfertaRepo@@QEAAXAEBH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 7,
+                  "endLine": 40,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 4,
+                  "endLine": 41,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 4,
+                  "endLine": 42,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 4,
+                  "endLine": 43,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 4,
+                  "endLine": 44,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 4,
+                  "endLine": 45,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 4,
+                  "endLine": 46,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 4,
+                  "endLine": 47,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaRepo::modifica",
+                  "decoratedName": "?modifica@OfertaRepo@@QEAAXAEBVOferta@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6389",
+          "message": {
+            "text": "Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "__empty_global_delete",
+                  "decoratedName": "?__empty_global_delete@@YAXPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6389",
+          "message": {
+            "text": "Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "__empty_global_delete",
+                  "decoratedName": "?__empty_global_delete@@YAXPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::{ctor}",
+                  "decoratedName": "??0?$VectorDinamic@VOferta@@@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::{dtor}",
+                  "decoratedName": "??1?$VectorDinamic@VOferta@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 24
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Oferta>::operator[]' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::[]",
+                  "decoratedName": "??A?$VectorDinamic@VOferta@@@@QEBAAEAVOferta@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 2,
+                  "endLine": 189,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::[]",
+                  "decoratedName": "??A?$VectorDinamic@VOferta@@@@QEBAAEAVOferta@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'VectorDinamic<Oferta>::end' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::end",
+                  "decoratedName": "?end@?$VectorDinamic@VOferta@@@@QEBA?AV?$IteratorVector@VOferta@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Oferta::pret' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/domeniu.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::{ctor}",
+                  "decoratedName": "??0Oferta@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Oferta::pret"
+          }
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::redimensionare",
+                  "decoratedName": "?redimensionare@?$VectorDinamic@VOferta@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26403",
+          "message": {
+            "text": "Reset or explicitly delete an owner<T> pointer 'nou' (r.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 8,
+                  "endLine": 111,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::redimensionare",
+                  "decoratedName": "?redimensionare@?$VectorDinamic@VOferta@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 10
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 20
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 13
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 28
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Oferta>::redimensionare",
+                  "decoratedName": "?redimensionare@?$VectorDinamic@VOferta@@@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 28
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 13
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 11
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 15
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 20
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 2
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Oferta>::IteratorVector<Oferta>' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::{ctor}",
+                  "decoratedName": "??0?$IteratorVector@VOferta@@@@QEAA@AEBV?$VectorDinamic@VOferta@@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Oferta>::element' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::element",
+                  "decoratedName": "?element@?$IteratorVector@VOferta@@@@QEBAAEAVOferta@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 2,
+                  "endLine": 246,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::element",
+                  "decoratedName": "?element@?$IteratorVector@VOferta@@@@QEBAAEAVOferta@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Oferta>::next' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Oferta>::next",
+                  "decoratedName": "?next@?$IteratorVector@VOferta@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33521.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/domeniu.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "831d14b9ad86488ef6e548e4b2c9621eec35fe0e9c0925a1c22a40fe133da7e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/repo.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fb8c603a5f503153ab719e96e56589c2c11ad29dfe0e74d3c406965ef0478ce8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_de_turism/Agentie_de_turism/VectorDinamic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e8ec2bf0ae9f6e9f994b664305b460d0e27ce5f40486be5f0971cd2066b607b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_de_turism/agentie_de_turism/repo.h"
+          },
+          "hashes": {
+            "sha-256": "17b72491489c67aaadd260d81034fbcaf1fdee045b7cfb603e59d815821c97da"
+          }
+        }
+      ]
+    }
+  ]
+}
