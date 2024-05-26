@@ -1,0 +1,511 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/domeniu.h"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferta::{ctor}",
+                  "decoratedName": "??0Oferta@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/service.h"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OfertaService::{ctor}",
+                  "decoratedName": "??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_modifica_repo",
+                  "decoratedName": "?test_modifica_repo@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_modifica_repo",
+                  "decoratedName": "?test_modifica_repo@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_modifica_service",
+                  "decoratedName": "?test_modifica_service@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_modifica_service",
+                  "decoratedName": "?test_modifica_service@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_modifica_service",
+                  "decoratedName": "?test_modifica_service@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_modifica_service",
+                  "decoratedName": "?test_modifica_service@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 18,
+                  "endLine": 221,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_sorteza_seervice",
+                  "decoratedName": "?test_sorteza_seervice@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 19,
+                  "endLine": 224,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_sorteza_seervice",
+                  "decoratedName": "?test_sorteza_seervice@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 23,
+                  "endLine": 227,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_sorteza_seervice",
+                  "decoratedName": "?test_sorteza_seervice@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 18,
+                  "endLine": 221,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_sorteza_seervice",
+                  "decoratedName": "?test_sorteza_seervice@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 19,
+                  "endLine": 224,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_sorteza_seervice",
+                  "decoratedName": "?test_sorteza_seervice@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 23,
+                  "endLine": 227,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_sorteza_seervice",
+                  "decoratedName": "?test_sorteza_seervice@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6389",
+          "message": {
+            "text": "Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "__empty_global_delete",
+                  "decoratedName": "?__empty_global_delete@@YAXPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6389",
+          "message": {
+            "text": "Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "__empty_global_delete",
+                  "decoratedName": "?__empty_global_delete@@YAXPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33521.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/domeniu.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "463965e58fbad246e6f9aba5554f19bcb63787ed4a6e9f1b954d2dd9a5b27afc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/service.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e01a3d11b33dfc9069edee5c755cd7cbe5764293ccd3b2f3892345ded5fe0d90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/anama/source/repos/Agentie_oop/Agentie_oop/teste.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e1df1530eed9784269aa27438eed91a7f0cc08fec8669558dff45e38f4f15aff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_oop/agentie_oop/teste.h"
+          },
+          "hashes": {
+            "sha-256": "2bf8ef2106f2368319c014745ec1bbfc25ad9dd0e239c7622398e4907cc77f85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_oop/agentie_oop/repo.h"
+          },
+          "hashes": {
+            "sha-256": "6afa41a39ceecf0bd1a59f836f92457f3d35cd081e614acd0e5b4408422fa788"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/anama/source/repos/agentie_oop/agentie_oop/validator.h"
+          },
+          "hashes": {
+            "sha-256": "e0458766f93e8548f5c77838a55427d98b5f1dd26887fea72309a4d4aa5f58de"
+          }
+        }
+      ]
+    }
+  ]
+}

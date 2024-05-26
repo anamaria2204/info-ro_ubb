@@ -1,0 +1,59 @@
+﻿  main.cpp
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\domeniu.cpp(16,1): warning G04EEF959: 'const' type qualifier on return type has no effect [clang-diagnostic-ignored-qualifiers]
+     16 | const float Oferta::get_pret() const {
+        | ^~~~~
+  Suppressed 7 warnings (7 in non-user code).
+  Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(42,20): warning G0CA8CAD3: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long long') [clang-diagnostic-sign-compare]
+     42 |         for (int i = 0; i < lista_oferte.size(); i++) {
+        |                         ~ ^ ~~~~~~~~~~~~~~~~~~~
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(20,20): warning G0CA8CAD3: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long long') [clang-diagnostic-sign-compare]
+     20 |         for (int i = 0; i < oferte.size(); i++) {
+        |                         ~ ^ ~~~~~~~~~~~~~
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(35,20): warning G0CA8CAD3: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long long') [clang-diagnostic-sign-compare]
+     35 |         for (int i = 0; i < oferte.size(); i++) {
+        |                         ~ ^ ~~~~~~~~~~~~~
+  Agentie_oop.vcxproj -> C:\Users\anama\source\repos\Agentie_oop\x64\Debug\Agentie_oop.exe
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\domeniu.h(46): warning C26432: If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\domeniu.cpp(16): warning C26440: Function 'Oferta::get_pret' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\domeniu.cpp(43): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.h(38): warning C26440: Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\ui.h(18): warning C26440: Function 'UI::UI' can be declared 'noexcept' (f.6).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\main.cpp(16): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(43): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(44): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(45): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(46): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(47): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(48): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(49): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(50): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp(76): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(22): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(37): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(77): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(77): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(78): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(79): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(79): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(80): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(73): warning C26429: Symbol 'maiMicF' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(77): warning C26823: Dereferencing a possibly null pointer 'maiMicF' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(105): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp(112): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(93): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(93): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(172): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(173): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(172): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(173): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(221): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(224): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(227): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(221): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(224): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(227): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\teste.cpp(231): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\ui.cpp(178): warning C26823: Dereferencing a possibly null pointer '(this->UI::srv)' (lifetime.1).
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\ui.cpp(211): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\validator.cpp(22): warning C6389: Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.

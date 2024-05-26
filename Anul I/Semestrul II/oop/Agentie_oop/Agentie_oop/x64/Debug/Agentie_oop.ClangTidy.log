@@ -1,0 +1,14 @@
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\domeniu.cpp:16:1: warning: 'const' type qualifier on return type has no effect [clang-diagnostic-ignored-qualifiers]
+   16 | const float Oferta::get_pret() const {
+      | ^~~~~
+Suppressed 7 warnings (7 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\repo.cpp:42:20: warning: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long long') [clang-diagnostic-sign-compare]
+   42 |         for (int i = 0; i < lista_oferte.size(); i++) {
+      |                         ~ ^ ~~~~~~~~~~~~~~~~~~~
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp:20:20: warning: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long long') [clang-diagnostic-sign-compare]
+   20 |         for (int i = 0; i < oferte.size(); i++) {
+      |                         ~ ^ ~~~~~~~~~~~~~
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\service.cpp:35:20: warning: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long long') [clang-diagnostic-sign-compare]
+   35 |         for (int i = 0; i < oferte.size(); i++) {
+      |                         ~ ^ ~~~~~~~~~~~~~

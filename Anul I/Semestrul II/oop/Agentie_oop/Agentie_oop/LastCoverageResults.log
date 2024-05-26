@@ -1,0 +1,21 @@
+[2024-04-12 09:12:06] [info] Start Program:
+Path:"C:\Users\anama\source\repos\Agentie_oop\x64\Debug\Agentie_oop.exe"
+Arguments:
+Working directory: "C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\"
+Modules: Selected: C:\Users\anama\source\repos\Agentie_oop\x64\Debug\Agentie_oop.exe Excluded: 
+Sources: Selected: C:\Users\anama\source\repos\Agentie_oop\Agentie_oop Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\anama\AppData\Local\Temp\0ryskm0f.2ub 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-04-12 09:12:06] [info] Module: C:\Users\anama\source\repos\Agentie_oop\x64\Debug\Agentie_oop.exe is selected because it matches selected pattern: C:\Users\anama\source\repos\Agentie_oop\x64\Debug\Agentie_oop.exe
+[2024-04-12 09:12:06] [info] ----------------------------------------------------
+[2024-04-12 09:12:06] [info] Coverage binary generated in file: C:\Users\anama\AppData\Local\Temp\0ryskm0f.2ub
+[2024-04-12 09:12:06] [info] ----------------------------------------------------

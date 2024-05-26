@@ -1,0 +1,2 @@
+C:\Users\anama\source\repos\Agentie_oop\x64\Debug\Agentie_oop.exe.lastcodeanalysissucceeded
+C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\x64\Debug\NativeCodeAnalysis.read.1.tlog

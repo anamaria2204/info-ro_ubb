@@ -1,0 +1,37 @@
+[
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\domeniu.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\domeniu.cpp"
+  },
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\main.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\main.cpp"
+  },
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\repo.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\repo.cpp"
+  },
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\service.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\service.cpp"
+  },
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\teste.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\teste.cpp"
+  },
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\ui.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\ui.cpp"
+  },
+  {
+    "directory": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/nologo \/W4 \/WX \/diagnostics:column \/Od \/D CODE_ANALYSIS \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"x64\\Debug\\\\\" \/Gd \/TP --target=amd64-pc-windows-msvc;  \"C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\validator.cpp\"",
+    "file": "C:\\Users\\anama\\source\\repos\\Agentie_oop\\Agentie_oop\\validator.cpp"
+  }
+]
