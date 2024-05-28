@@ -1,0 +1,9 @@
+﻿  ofertaGUI.cpp
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(201,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(322,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(349,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(381,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(391,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(475,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab 10_11\lab 10_11\ofertaGUI.cpp(572,33): warning C4101: 'mesaj': unreferenced local variable
+  lab 10_11.vcxproj -> C:\Users\anama\source\repos\lab 10_11\x64\Debug\lab 10_11.exe
