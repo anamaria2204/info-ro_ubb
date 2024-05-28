@@ -1,0 +1,5 @@
+﻿  app.cpp
+C:\Users\anama\source\repos\lab4_sda\lab4_sda\Colectie.h(1,13): warning C4081: expected 'newline'; found ';'
+  (compiling source file 'app.cpp')
+  
+  lab4_sda.vcxproj -> C:\Users\anama\source\repos\lab4_sda\x64\Debug\lab4_sda.exe
