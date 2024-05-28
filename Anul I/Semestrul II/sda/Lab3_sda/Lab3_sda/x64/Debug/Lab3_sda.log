@@ -1,0 +1,4 @@
+﻿  TestExtins.cpp
+C:\Users\anama\source\repos\Lab3_sda\Lab3_sda\TestExtins.cpp(119,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\anama\source\repos\Lab3_sda\Lab3_sda\TestExtins.cpp(137,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Lab3_sda.vcxproj -> C:\Users\anama\source\repos\Lab3_sda\x64\Debug\Lab3_sda.exe
