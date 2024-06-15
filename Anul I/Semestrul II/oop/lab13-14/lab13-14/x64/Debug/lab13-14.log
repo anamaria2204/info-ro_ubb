@@ -1,0 +1,14 @@
+﻿  lab1314.cpp
+C:\Users\anama\source\repos\lab13-14\lab13-14\MyListModel.h(16,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'lab1314.cpp')
+  
+C:\Users\anama\source\repos\lab13-14\lab13-14\MyTableModel.h(17,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'lab1314.cpp')
+  
+C:\Users\anama\source\repos\lab13-14\lab13-14\lab1314.cpp(314,33): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab13-14\lab13-14\lab1314.cpp(351,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab13-14\lab13-14\lab1314.cpp(378,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab13-14\lab13-14\lab1314.cpp(410,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab13-14\lab13-14\lab1314.cpp(420,32): warning C4101: 'mesaj': unreferenced local variable
+C:\Users\anama\source\repos\lab13-14\lab13-14\lab1314.cpp(503,32): warning C4101: 'mesaj': unreferenced local variable
+  lab13-14.vcxproj -> C:\Users\anama\source\repos\lab13-14\x64\Debug\lab13-14.exe
