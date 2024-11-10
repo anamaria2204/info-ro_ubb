@@ -1,0 +1,6 @@
+Problema 1
+a) Definiti un predicat care determina suna a doua numere scrise in reprezentare de lista
+b) Se da o lista eterogena, formata din numere intregi si liste de cifre, Sa se calculeze suma tutror numerelor
+reprezentate de subliste. 
+De ex: [1, [2, 3], 4, 5, [6, 7, 9], 10, 11, [1, 2, 0], 6] =>
+       [8, 2, 2]
