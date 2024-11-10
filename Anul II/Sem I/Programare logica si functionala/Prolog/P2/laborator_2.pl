@@ -1,0 +1,200 @@
+/*
+ * Laborator 2 - Problema 1
+ *
+ * a) Definiti un predicat care determina suma a doua numere scrise in
+ * reprezentare de lista
+ *
+ *  Determina initial inversul unei liste, vom folosi un invers_aux care
+ *  va stoca intr-o variabila colectoare inversul listei
+ *
+ *  Model matematic:
+ *        invers_aux(l1..ln, Col) = { Col, n = 0 }
+ *                                  { invers_aux(l2..ln,l1+Col), altfel }
+ *
+ *  invers_aux(Col: list, L: list, R: list)
+ *  - Col - variabila colectoare
+ *  - L - lista initiala, lista de inversat
+ *  - R - lista rezultat, inversa listei initiale
+ *
+ *  Model de flux: (i, i, O)
+ *
+ */
+
+ invers_aux(Col, [], Col).
+ invers_aux(Col, [H|T], R):- invers_aux([H|Col], T, R).
+
+/*
+ *  Determinam acum inversul listei folosind invers_aux
+ *
+ *  Model matematic:
+ *    invers(l1..ln) = invers_aux(l1..ln,[])
+ *
+ *  invers(L: list, Rez: list)
+ *  L - lista initiala
+ *  Rez - lista rezultata, cu lista initiala inversata
+ *
+ *  Model de flux: (i, o)
+ *
+ */
+ invers(L, Rez):- invers_aux([], L, Rez).
+
+goa:- invers([1,2,3],[3,2,1]).
+gob:- invers([1,1,1],[1,1,1]).
+goc:- invers([],[]).
+
+/*
+ *  Functie de a afla lungimea unei liste
+ *
+ *  Model matematic: lungime(l1..ln) = { 0, n = 0 }
+ *                                    { 1 + lungime(l2..ln), altfel }
+ *
+ *  lungime(L: list, R: integer)
+ *  L - lista initiala data ca parametru
+ *  R - lungimea listei, un numar intreg
+ *
+ *  Model de flux: (i,o)
+ *
+ */
+
+ lungime([],0).
+ lungime([_|T],R):- lungime(T,R1), R is R1+1.
+
+god:- lungime([1,2,3],3).
+goe:- lungime([],0).
+
+/*
+ *   Determinam suma a doua liste, cele doua liste se comporta ca doua
+ *   numere, pentru a usura suma, vom inversa listele si vom face suma
+ *   accesand primul element din fiecare lista, apoi rezultatul il punem
+ *   intr-o alta lista in care vom adauga fiecare element la inceput
+ *   astfel lista rezultat este chiar suma celor doua numere date.
+ *
+ *   Model matematic:
+ *    suma(a1..an, b1...bm, c) =
+ *               { [], n = 0, m = 0, c = 0 }
+ *               { [1], n = 0, m = 0, c = 1 }
+ *               { (b1+c) + suma([], b2..bm, 0), n = 0, b1+c <10 }
+ *               { ((b1+c)%10) + suma([], b2..bm, 1), n = 0 and b1+c > 10}
+ *               { (a1+b1+c) + suma(a2..an, b2..bm, 0), a1+b1+c < 10 }
+ *               { ((a1+b1+c)%10) + suma(a2..an, b2..bm,1), a1+b1+c > 10 }
+ *
+ *   suma(A: list, B: list, C: integer, R: list)
+ *
+ *   - A - prima lista
+ *   - B - a doua lista
+ *   - C - intreg care tine evidenta daca suma celor doua cifre curente
+ *   este mai mare decat 10, 1 daca > 10, 0 altfel
+ *   - R - lista rezultat
+ *
+ *    Model de flux: (i,i,i,o)
+ *
+ *
+ */
+
+ suma([],[],0,[]).
+ suma([],[],1,[1]).
+ suma([],[HB|TB],C,[HBC|R]):-
+    HBC is (HB+C) mod 10,
+    HBC - HB - C =:= 0,
+    suma([],TB,0,R).
+ suma([],[HB|TB],C,[HBC|R]):-
+    HBC is (HB+C) mod 10,
+    HBC - HB - C =\= 0,
+    suma([],TB,1,R).
+ suma([HA|TA],[HB|TB],C,[HR|R]):-
+    HR is (HA+HB+C) mod 10,
+    HR - HA - HB - C =:= 0,
+    suma(TA, TB, 0, R).
+ suma([HA|TA],[HB|TB],C,[HR|R]):-
+    HR is (HA+HB+C) mod 10,
+    HR - HA - HB - C =\= 0,
+    suma(TA, TB, 1, R).
+
+/*
+ *  Determina suma a celor doua numere, inverseaza listele si foloseste
+ *  functia suma de mai sus
+ *
+ *   suma_lista(a1..an, b1..bm) = { a1...an, m = 0 }
+ *                                { b1...bm, n = 0 }
+ *                                { invers(suma(invers(a1..an), invers(b1..bm), 0)), n <= m }
+ *                                { invers(suma(invers(b1..bm), invers(a1..an), 0)), altfel }
+ *
+ *   suma_lista(A: list, B: list, R: list)
+ *   A - lista 1
+ *   B - lista 2
+ *   R - lista rezultat
+ *
+ *  Model de flux: (i,i,o)
+ *
+ */
+
+ suma_lista(A, [], A).
+ suma_lista([], B, B).
+ suma_lista(A, B, R):-
+    lungime(A,LA),
+    lungime(B,LB),
+    LA =< LB, !,
+    invers(A,RA),
+    invers(B,RB),
+    suma(RA, RB, 0, RS),
+    invers(RS,R).
+ suma_lista(A, B, R):-
+    lungime(A,LA),
+    lungime(B,LB),
+    LA >= LB,
+    invers(A,RA),
+    invers(B,RB),
+    suma(RB,RA,0,RS),
+    invers(RS,R).
+
+go1:- suma_lista([1,2,3],[2,5,7],[3,8,0]).
+go2:- suma_lista([2,3], [1,2,7],[1,5,0]).
+
+/*
+ *  1b) Se da o lista eterogena formata din numere intregi si liste de
+ *  cifre. Sa se calculeze suma tuturor numerelor reprezentate de
+ *  subliste. De ex: [1, [2,3], 4, 5, [6,7,9], 10, 11, [1, 2, 0], 6]
+ *  [2,3] + [6,7,9] + [1,2,0] = [8,2,2]
+ *  => [8,2,2].
+ *
+ *
+ * Model matematic:
+ *        suma_list_eter(l1..ln) = { [], n = 0 }
+ *                                 { suma_lista(l1, suma_list_eter(l2..ln), is_list(l1) }
+ *                                 { suma_list_eter(l2..ln), altfel }
+ *
+ *
+ *  suma_list_eter(L: list, R: list)
+ *  L - lista initiala, eterogena
+ *  R - lista rezultat cu suma tuturor sublistelor
+ *  Model de flux: (i, o)
+ *
+ *
+ */
+ suma_list_eter([],[]).
+ suma_list_eter([H|T], R):-
+    is_list(H), !,
+    suma_list_eter(T, RS),
+    suma_lista(H, RS, R).
+ suma_list_eter([_|T],R):-
+    suma_list_eter(T,R).
+
+go3:- suma_list_eter([1, [2,3], 4, 5, [6,7,9], 10, 11, [1,2,0],6],[8,2,2]).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
