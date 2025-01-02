@@ -1,0 +1,10 @@
+Problema 1
+Se da un arbore de tipul (1). Sa se afiseaza calea de la radacina pana la un nod X dat.
+
+Arbore de tipul 1:
+    A
+   / \
+  B   C
+     / \
+    D   E
+(A 2 B 0 C 2 D 0 E 0)
