@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atelier.atelier_de_origami.controller.LogInController">
+   <children>
+      <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Welcome to Creative Origami Corner" />
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Username: " />
+                  <TextField fx:id="usernameField" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Password:" />
+                  <PasswordField fx:id="passwordField" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="50">
+               <children>
+                  <Button mnemonicParsing="false" text="Login"  onAction="#handleSignInButton" />
+                  <CheckBox mnemonicParsing="false" text="Teacher" fx:id="teacherCheckBox" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="30">
+               <children>
+                  <Label text="Want an account?" />
+                  <Button mnemonicParsing="false" text="Sign Up" onAction="#handleSignUpButton" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+group 'atelier'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    // JavaFX
+    implementation 'org.openjfx:javafx-controls:21'
+    implementation 'org.openjfx:javafx-fxml:21'
+
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+    implementation 'org.apache.logging.log4j:log4j-core:2.24.3'
+    implementation 'org.apache.logging.log4j:log4j-api:2.24.3'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+
+    implementation 'org.hibernate.orm:hibernate-core:6.4.4.Final'
+
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+    implementation 'org.glassfish:jakarta.el:4.0.2'
+
+    implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.4.Final'
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    implementation 'ch.qos.logback:logback-classic:1.4.14'
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+}
+
+application {
+    mainClass = 'atelier.atelier_de_origami.Main'
+}
+
+jar {
+    manifest {
+        attributes('Main-Class': 'atelier.atelier_de_origami.Main')
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs = [
+        '--add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED',
+        '--add-exports=javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED'
+    ]
+}
+
+test {
+    useJUnitPlatform()
+}

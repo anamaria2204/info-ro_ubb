@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atelier.atelier_de_origami.controller.SignUpController">
+   <children>
+      <VBox alignment="CENTER" spacing="10" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Want to learn the art of folding paper?" />
+            <Label text="This is your chance:" />
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="First name:" />
+                  <TextField fx:id="nameField" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Last name:" />
+                  <TextField fx:id="surnameField" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Email:" />
+                  <TextField fx:id="emailField" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Telephone number:" />
+                  <TextField fx:id="phoneField" />
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Age:" />
+                  <TextField fx:id="ageField" />
+               </children></HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="404.0" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Username:" />
+                  <TextField fx:id="usernameField" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0" spacing="20">
+               <children>
+                  <Label text="Password:" />
+                  <PasswordField fx:id="passwordField" />
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#handleSignUpButton" text="Submit" />
+         </children></VBox>
+
+   </children>
+</AnchorPane>
