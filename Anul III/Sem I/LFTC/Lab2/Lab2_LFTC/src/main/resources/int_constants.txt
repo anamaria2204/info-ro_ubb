@@ -1,0 +1,39 @@
+stari(q0,q1,q2,q3);
+alfabet(+,-,0,1,2,3,4,5,6,7,8,9);
+initiala(q0);
+finale(q2,q3);
+tranzitii(
+    q0q1 +,
+    q0q1 -,
+    q0q3 0,
+    q0q2 1,
+    q0q2 2,
+    q0q2 3,
+    q0q2 4,
+    q0q2 5,
+    q0q2 6,
+    q0q2 7,
+    q0q2 8,
+    q0q2 9,
+    q1q2 1,
+    q1q2 2,
+    q1q2 3,
+    q1q2 4,
+    q1q2 5,
+    q1q2 6,
+    q1q2 7,
+    q1q2 8,
+    q1q2 9,
+    q2q2 0,
+    q2q2 1,
+    q2q2 2,
+    q2q2 3,
+    q2q2 4,
+    q2q2 5,
+    q2q2 6,
+    q2q2 7,
+    q2q2 8,
+    q2q2 9.
+    q0q3 0,
+
+)

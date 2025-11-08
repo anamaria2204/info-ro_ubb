@@ -1,0 +1,12 @@
+stari(q0,q1,q2,q3, q4);
+alfabet(a,b);
+initiala(q0);
+finale(q4);
+tranzitii(
+    q0q1 a,
+    q1q2 a,
+    q2q2 a,
+    q2q3 b,
+    q3q4 b,
+    q4q4 b
+)
